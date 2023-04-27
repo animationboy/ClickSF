@@ -1,0 +1,27 @@
+.btn-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-1 {
+  background-color: red;
+  border: none;
+  border-radius: 13px;
+  width: fixed;
+  height: 34px;
+  color: white;
+  font-weight: bold;
+  font-family: Roboto, Arial;
+  font-size: 14px;
+}
+
+.btn-1:hover {
+  cursor: pointer;
+  opacity: .5;
+}
+
+.btn-1:active {
+  opacity: .2;
+  transition-duration: .5s;
+}
